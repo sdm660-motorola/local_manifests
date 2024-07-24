@@ -2,23 +2,23 @@
 <manifest>
 
 <!-- Tracking -->
-  <remote name="track" fetch="https://gitlab.com/sdm660-motorola/thirteen-tiramisu" />
+  <remote name="track" fetch="https://github.com/sdm660-motorola" />
 
 <!-- Trees -->
-  <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="track" revision="master" />
-  <project path="device/motorola/evert" name="android_device_motorola_evert" remote="track" revision="master" />
-  <project path="device/motorola/lake" name="android_device_motorola_lake" remote="track" revision="master" />
-  <project path="device/motorola/nash" name="android_device_motorola_nash" remote="track" revision="master" />
-  <project path="device/motorola/msm8998-common" name="device_motorola_msm8998-common" remote="track" revision="master" />
+  <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="track" revision="thirteen" />
+  <project path="device/motorola/evert" name="android_device_motorola_evert" remote="track" revision="thirteen" />
+  <project path="device/motorola/lake" name="android_device_motorola_lake" remote="track" revision="thirteen" />
+  <project path="device/motorola/nash" name="android_device_motorola_nash" remote="track" revision="thirteen" />
+  <project path="device/motorola/msm8998-common" name="device_motorola_msm8998-common" remote="track" revision="thirteen" />
 
 <!-- Vendors -->
-  <project path="vendor/motorola/beckham" name="proprietary_vendor_motorola_beckham" remote="track" revision="master" />
-  <project path="vendor/motorola/evert" name="proprietary_vendor_motorola_evert" remote="track" revision="master" />
-  <project path="vendor/motorola/lake" name="proprietary_vendor_motorola_lake" remote="track" revision="master" />
-  <project path="vendor/motorola/nash" name="proprietary_vendor_motorola_nash" remote="track" revision="master" />
-  <project path="vendor/motorola/msm8998-common" name="vendor_motorola_msm8998-common" remote="track" revision="master" />
+  <project path="vendor/motorola/beckham" name="proprietary_vendor_motorola_beckham" remote="track" revision="thirteen" />
+  <project path="vendor/motorola/evert" name="proprietary_vendor_motorola_evert" remote="track" revision="thirteen" />
+  <project path="vendor/motorola/lake" name="proprietary_vendor_motorola_lake" remote="track" revision="thirteen" />
+  <project path="vendor/motorola/nash" name="proprietary_vendor_motorola_nash" remote="track" revision="thirteen" />
+  <project path="vendor/motorola/msm8998-common" name="vendor_motorola_msm8998-common" remote="track" revision="thirteen" />
 
 <!-- Kernel -->
-  <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="track" revision="master" />
+  <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="track" revision="thirteen" />
 
 </manifest>
