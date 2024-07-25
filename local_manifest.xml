@@ -3,6 +3,7 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com/sdm660-motorola" />
+  <remote name="gitea" fetch="https://gitea.com" />
 
 <!-- Trees -->
   <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="track" revision="arrow-13.1" />
@@ -14,5 +15,8 @@
 
 <!-- Kernel -->
   <project path="kernel/motorola/msm8998" name="android_kernel_motorola_msm8998" remote="track" revision="thirteen" />
+
+<!-- Keys -->
+  <project path="vendor/arrow/signing/keys/" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
 
 </manifest>
