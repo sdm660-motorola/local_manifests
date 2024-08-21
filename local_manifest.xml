@@ -4,6 +4,7 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com/sdm660-motorola" />
   <remote name="gitea" fetch="https://gitea.com" />
+  <remote name="ssh" fetch="ssh://git@github.com/Vhmit" />
 
 <!-- Trees -->
   <project path="device/motorola/beckham" name="android_device_motorola_beckham" remote="track" revision="arrow-13.1" />
@@ -24,5 +25,8 @@
 
 <!-- Keys -->
   <project path="vendor/arrow/signing/keys/" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
+  <project path="script-build" name="script-bot" remote="ssh" revision="arrow-ext">
+    <linkfile src="builder.sh" dest="script-build/builder.sh" />
+  </project>
 
 </manifest>
