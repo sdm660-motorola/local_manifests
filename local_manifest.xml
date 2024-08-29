@@ -25,8 +25,6 @@
 
 <!-- Keys -->
   <project path="vendor/arrow/signing/keys/" name="Vhmit/vendor_signing_keys" remote="gitea" revision="master" />
-  <project path="script-build" name="Vhmit/script-bot" remote="ssh" revision="arrow-ext">
-    <linkfile src="builder.sh" dest="script-build/builder.sh" />
-  </project>
+  <project path="build-bot" name="Vhmit/script-bot" remote="ssh" revision="arrow-ext" />
 
 </manifest>
