@@ -3,7 +3,7 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com/sdm660-motorola" />
-  <remote name="deps" fetch="https://github.com/rain-of-engines" />
+  <remote name="deps" fetch="https://github.com/Vhmit" />
 
 <!-- Additional -->
   <project path="hardware/motorola" name="android_hardware_motorola" remote="deps" revision="fourteen" />
